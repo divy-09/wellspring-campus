@@ -2,57 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Mental Health Platform Design System - Calming & Student-Friendly
+All colors MUST be HSL for consistent theming.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Background & Text Colors */
+    --background: 210 50% 98%; /* Soft off-white */
+    --foreground: 210 15% 20%; /* Calm dark blue-gray */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card & Surface Colors */
+    --card: 0 0% 100%; /* Pure white for cards */
+    --card-foreground: 210 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 15% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Brand - Calming Blue */
+    --primary: 210 100% 45%; /* Mental health blue */
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 210 100% 95%; /* Very light blue background */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Soft Green for wellness */
+    --secondary: 140 30% 94%; /* Pastel green background */
+    --secondary-foreground: 140 60% 25%; /* Deep green text */
+    --secondary-accent: 140 50% 60%; /* Medium green */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent - Lavender for mindfulness */
+    --accent: 260 50% 94%; /* Light lavender */
+    --accent-foreground: 260 40% 30%; /* Deep purple */
+    --accent-medium: 260 40% 70%; /* Medium lavender */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Muted tones */
+    --muted: 210 30% 96%;
+    --muted-foreground: 210 10% 50%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Wellness colors */
+    --wellness-calm: 200 50% 94%; /* Calm blue */
+    --wellness-energy: 45 90% 94%; /* Soft yellow */
+    --wellness-growth: 140 40% 94%; /* Growth green */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Status & Actions */
+    --success: 140 50% 50%; /* Success green */
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 45 90% 60%; /* Gentle yellow */
+    --warning-foreground: 45 90% 20%;
 
-    --radius: 0.5rem;
+    --destructive: 0 70% 60%; /* Soft red */
+    --destructive-foreground: 0 0% 100%;
 
-    --sidebar-background: 0 0% 98%;
+    /* UI Elements */
+    --border: 210 30% 90%;
+    --input: 210 30% 96%;
+    --ring: 210 100% 45%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Border radius for soft design */
+    --radius: 1rem;
 
-    --sidebar-primary: 240 5.9% 10%;
+    /* Gradients for hero sections */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 95%), hsl(260 50% 95%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 50% 98%));
+    --gradient-wellness: linear-gradient(120deg, hsl(140 30% 94%), hsl(200 50% 94%));
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    /* Shadows for depth */
+    --shadow-soft: 0 4px 20px -4px hsl(210 100% 45% / 0.1);
+    --shadow-card: 0 2px 10px -2px hsl(210 50% 50% / 0.08);
+    --shadow-floating: 0 8px 30px -8px hsl(210 100% 45% / 0.15);
 
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
