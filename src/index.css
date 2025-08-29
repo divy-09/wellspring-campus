@@ -9,39 +9,39 @@ All colors MUST be HSL for consistent theming.
 @layer base {
   :root {
     /* Core Background & Text Colors */
-    --background: 210 50% 98%; /* Soft off-white */
-    --foreground: 210 15% 20%; /* Calm dark blue-gray */
+    --background: 46 100% 94%; /* Ivory background */
+    --foreground: 228 30% 25%; /* Deep lavender-gray text */
 
     /* Card & Surface Colors */
     --card: 0 0% 100%; /* Pure white for cards */
-    --card-foreground: 210 15% 20%;
+    --card-foreground: 228 30% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 15% 20%;
+    --popover-foreground: 228 30% 25%;
 
-    /* Primary Brand - Calming Blue */
-    --primary: 210 100% 45%; /* Mental health blue */
+    /* Primary Brand - Lavender */
+    --primary: 228 50% 75%; /* Lavender primary */
     --primary-foreground: 0 0% 100%;
-    --primary-soft: 210 100% 95%; /* Very light blue background */
+    --primary-soft: 228 50% 95%; /* Very light lavender background */
 
-    /* Secondary - Soft Green for wellness */
-    --secondary: 140 30% 94%; /* Pastel green background */
-    --secondary-foreground: 140 60% 25%; /* Deep green text */
-    --secondary-accent: 140 50% 60%; /* Medium green */
+    /* Secondary - Mint Green for wellness */
+    --secondary: 158 45% 91%; /* Mint green background */
+    --secondary-foreground: 158 60% 25%; /* Deep green text */
+    --secondary-accent: 158 45% 65%; /* Medium mint green */
 
-    /* Accent - Lavender for mindfulness */
-    --accent: 260 50% 94%; /* Light lavender */
-    --accent-foreground: 260 40% 30%; /* Deep purple */
-    --accent-medium: 260 40% 70%; /* Medium lavender */
+    /* Accent - Blush Pink for warmth */
+    --accent: 344 100% 95%; /* Light blush pink */
+    --accent-foreground: 344 60% 30%; /* Deep pink */
+    --accent-medium: 344 100% 80%; /* Medium blush pink */
 
     /* Muted tones */
-    --muted: 210 30% 96%;
-    --muted-foreground: 210 10% 50%;
+    --muted: 228 30% 93%;
+    --muted-foreground: 228 15% 50%;
 
     /* Wellness colors */
-    --wellness-calm: 200 50% 94%; /* Calm blue */
-    --wellness-energy: 45 90% 94%; /* Soft yellow */
-    --wellness-growth: 140 40% 94%; /* Growth green */
+    --wellness-calm: 228 50% 90%; /* Lavender calm */
+    --wellness-energy: 27 100% 88%; /* Soft peach energy */
+    --wellness-growth: 158 45% 88%; /* Mint growth */
 
     /* Status & Actions */
     --success: 140 50% 50%; /* Success green */
@@ -54,22 +54,22 @@ All colors MUST be HSL for consistent theming.
     --destructive-foreground: 0 0% 100%;
 
     /* UI Elements */
-    --border: 210 30% 90%;
-    --input: 210 30% 96%;
-    --ring: 210 100% 45%;
+    --border: 228 30% 88%;
+    --input: 228 30% 95%;
+    --ring: 228 50% 75%;
 
     /* Border radius for soft design */
     --radius: 1rem;
 
     /* Gradients for hero sections */
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 95%), hsl(260 50% 95%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 50% 98%));
-    --gradient-wellness: linear-gradient(120deg, hsl(140 30% 94%), hsl(200 50% 94%));
+    --gradient-hero: linear-gradient(135deg, hsl(228 50% 95%), hsl(344 100% 95%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(46 100% 96%));
+    --gradient-wellness: linear-gradient(120deg, hsl(158 45% 91%), hsl(27 100% 88%));
 
     /* Shadows for depth */
-    --shadow-soft: 0 4px 20px -4px hsl(210 100% 45% / 0.1);
-    --shadow-card: 0 2px 10px -2px hsl(210 50% 50% / 0.08);
-    --shadow-floating: 0 8px 30px -8px hsl(210 100% 45% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsl(228 50% 75% / 0.1);
+    --shadow-card: 0 2px 10px -2px hsl(228 30% 70% / 0.08);
+    --shadow-floating: 0 8px 30px -8px hsl(228 50% 75% / 0.15);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
