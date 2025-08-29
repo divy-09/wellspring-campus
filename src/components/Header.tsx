@@ -24,7 +24,7 @@ const Header = () => {
             <div className="flex items-center justify-center w-10 h-10 bg-gradient-hero rounded-lg shadow-soft">
               <Heart className="w-6 h-6 text-primary" />
             </div>
-            <span className="text-xl font-semibold text-foreground">Solus</span>
+            <span className="text-xl font-semibold text-foreground">CalmConnect</span>
           </div>
 
           {/* Desktop Navigation */}

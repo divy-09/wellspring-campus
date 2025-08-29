@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="flex items-center justify-center w-10 h-10 bg-gradient-hero rounded-lg shadow-soft">
                 <Heart className="w-6 h-6 text-primary" />
               </div>
-              <span className="text-xl font-semibold text-foreground">Solus</span>
+              <span className="text-xl font-semibold text-foreground">CalmConnect</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Empowering students with confidential, accessible mental health support for a brighter academic journey.
@@ -96,7 +96,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 sm:mb-0">
-            © 2024 Solus. All rights reserved. Built with care for student well-being.
+            © 2025 CalmConnect. All rights reserved. Built with care for student well-being.
           </p>
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
             <span>🔒 HIPAA Compliant</span>
